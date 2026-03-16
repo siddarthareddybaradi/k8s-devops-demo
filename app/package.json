@@ -1,0 +1,12 @@
+{
+  "name": "k8s-devops-demo",
+  "version": "1.0.0",
+  "description": "DevOps Kubernetes Demo App",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
