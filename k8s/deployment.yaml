@@ -23,3 +23,9 @@ spec:
         image: ghcr.io/siddarthareddybaradi/k8s-devops-demo/devops-demo-app:latest
         ports:
         - containerPort: 3000
+
+        envFrom:
+        - configMapRef:
+            name: app-config
+        - secretRef:
+            name: app-secret
